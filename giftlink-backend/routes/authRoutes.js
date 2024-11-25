@@ -35,6 +35,7 @@ router.post('/register', async (req, res) => {
             password: hash,
             createdAt: new Date(),
         });
+        
          // Create JWT authentication with user._id as payload
         const payload = {
             user: {
@@ -49,3 +50,5 @@ router.post('/register', async (req, res) => {
          return res.status(500).send('Internal server error');
     }
 });
+
+module.exports = router;
