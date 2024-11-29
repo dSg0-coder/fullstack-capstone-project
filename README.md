@@ -1,7 +1,5 @@
 Test Code
 
-You should test your code to ensure it runs properly.
-
 If the MongoDB is not running, start MongoDB and copy the password and paste it in the .env file in the giftlink-backend folder.
 
 Open a new terminal.
